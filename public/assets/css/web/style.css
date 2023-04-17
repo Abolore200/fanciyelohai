@@ -71,4 +71,21 @@ main{margin-top:20px;margin-bottom:100px;}
 .snacks-note ul li,.beverages-note ul li{margin:4px 0;font-family:var(--sniglet);font-weight:var(--font-weight-400);list-style:none;}
 .snacks-note ul li,.beverages-note ul li{display:flex;align-items:center;}
 .snacks-note ul li i,.beverages-note ul li i{font-size:5px;}
-.available-product{width:var(--width-95);margin:0 var(--margin-auto);}
+.available-products-container{margin-top:50px;}
+.available-product{width:var(--width-100);}
+.check-product-head{text-align:center;}
+.check-product-head p{font-weight:var(--font-weight-700);font-size:25px;}
+.check-product-container{width:var(--width-100);background-color:var(--color-blackish);height:900px;margin-top:30px;}
+.check-products{width:95%;margin:0 var(--margin-auto);height:inherit;padding-top:20px;}
+.check-product-container .check-products .products{width:24%;height:280px;background-color:transparent;margin:0px 6px 15px;float:left;}
+.check-product-container .check-products .products{display:flex;justify-content:end;flex-direction:column;transition:all .5s;}
+.available-product-image{width:100%;height:190px;border-radius:20px;background-color:var(--color-white);}
+.available-product-image{display:flex;}
+.available-product-image .images img{width:240px;height:270px;position:absolute;top:25%;left:50%;transform:translate(-50%,-50%);}
+.available-product-image .images{width:40%;position:relative;padding-left:5px;}
+.images-details{width:60%;display:flex;justify-content:center;flex-direction:column;padding-left:10px;}
+.product-name p{font-weight:var(--font-weight-600);font-size:var(--font-size-18);}
+.product-price{margin:7px 0;}
+.product-price p{font-weight:var(--font-weight-700);font-size:var(--font-size-18);color:var(--color-green);}
+.product-buy-now-btn button{padding:8px 15px;font-size:var(--font-size-18);font-weight:var(--font-weight-700);color:var(--color-white);}
+.product-buy-now-btn button{background-color:var(--color-green);border-radius:50px;text-align:center;border:1px solid var(--color-green);}

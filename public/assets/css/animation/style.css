@@ -1,0 +1,2 @@
+.check-product-container .check-products .products:hover{position:relative;animation-name:hover-product;animation-duration:.2s;animation-fill-mode:forwards;}
+@keyframes hover-product{from{top:0px}to{top:-5px}}
