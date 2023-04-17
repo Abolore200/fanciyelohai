@@ -1,2 +1,16 @@
 .check-product-container .check-products .products:hover{position:relative;animation-name:hover-product;animation-duration:.2s;animation-fill-mode:forwards;}
 @keyframes hover-product{from{top:0px}to{top:-5px}}
+.explore-now-btn button:hover i{position:relative;animation-name:hover-explore-btn;animation-duration:.2s;animation-fill-mode:forwards;}
+@keyframes hover-explore-btn{from{left:0;}to{left:5px}}
+/*chrome*/
+.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+{-webkit-animation-duration:.2s;-webkit-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
+/*opera*/
+.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+{-o-animation-duration:.2s;-o-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
+/*mozilla*/
+.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+{-moz-animation-duration:.2s;-moz-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
+/*microsoft*/
+.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+{-ms-animation-duration:.2s;-ms-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
