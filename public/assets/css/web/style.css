@@ -7,10 +7,11 @@
     --sniglet:'Sniglet';
     --titan-one:'Titan One';
 }
-:hover{-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;-ms-transition:all .5s;transition:all .5s;}
+.explore-now-btn button:hover i,.navbar-list-link ul li:hover::after,.explore-now-btn button
+{-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;-ms-transition:all .5s;transition:all .5s;}
 *,::after,::before{padding:0;margin:0;outline:none;box-sizing:border-box;}
 div,p,a{color:#333333;}
-html{--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-weight-600:600;--color-blackish:#333333;
+html{--font-weight-800:800;--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-weight-600:600;--color-blackish:#333333;
 --color-green:green;--color-white:#fff;--font-size-20:20px;--font-size-19:19px;--font-size-18:18px;--font-size-16:16px;--margin-auto:auto;--background-blackish:#333333;
 --width-90:90%;--width-95:95%;--width-50:50%;--width-100:100%}
 body{scroll-behavior:smooth;position:relative;}
@@ -26,7 +27,7 @@ nav .navbar-home{padding:25px 0;border-bottom:1px solid rgba(51, 51, 51, 0.5);}
 .home-logo-link button{display:none;}
 .navbar-list-link ul{display:flex;align-items:center;}
 .navbar-list-link ul li{list-style:none;font-family:var(--dm-sans);font-weight:var(--font-weight-700);
-margin:0 30px;position:relative;line-height:14px;}
+margin:0 30px;position:relative;}
 .navbar-list-link ul li:last-child{margin-right:0;}
 .navbar-list-link ul li:first-child{margin-left:0;}
 .navbar-list-link ul li::after{content:"";position:absolute;height:2px;width:0;background-color:var(--background-blackish);
@@ -47,10 +48,27 @@ text-align:center;position:relative;}
 .images-img{position:relative;height:inherit;}
 .small-heading-quote .small-quote{padding:0px 35px 30px 50px;}
 .small-quote p{font-family:var(--sniglet);font-size:var(--font-size-19);color:var(--color-white);}
-.explore-now-btn button{display:flex;align-items:center;padding:15px 50px;border:1px solid var(--color-white);border-radius:50px;color:var(--color-green);}
+.explore-now-btn button{display:flex;align-items:center;padding:15px 50px;border:1px solid var(--color-white);border-radius:50px;color:var(--color-green);transition:all .5s;}
 .explore-now-btn{margin:15px 0px 0 50px;}
 .explore-now-btn button a{font-family:var(--poppins);font-weight:var(--font-weight-600);font-size:var(--font-size-18);color:var(--color-green);}
 .explore-now-btn button i{font-size:19px;}
-.explore-now-btn button span{position:relative;transition:all .5s;margin-left:10px;}
-.explore-now-btn button:hover span{left:10px;}
-header{margin-bottom:100px;}
+.explore-now-btn button i{position:relative;transition:all .5s;margin-left:10px;}
+.explore-now-btn button:hover i{left:10px;}
+header{margin-bottom:50px;}
+main{margin-top:20px;margin-bottom:100px;}
+.our-products{width:var(--width-95);margin:0 var(--margin-auto);}
+.product-header{text-align:center;}
+.product-header p{font-weight:var(--font-weight-700);font-size:25px;}
+.products-type{display:flex;padding-bottom:40px;border-bottom:1px solid rgba(51, 51, 51, 0.5);}
+.snacks-product-container,.beverages-product-container{width:var(--width-50);}
+.snacks-product,.beverages-product{width:80%;margin:0 var(--margin-auto);text-align:center;display:flex;align-items:center;justify-content:space-evenly;}
+.snacks-image,.beverages-image{width:250px;height:250px;border-radius:50%;display:flex;justify-content:center;align-items:center;}
+.snacks-image,.beverages-image{box-shadow:0px 4px 11px rgba(0, 0, 0, 0.25);background-color:rgba(255, 255, 255, 0.2);}
+.snacks-image img,.beverages-image img{width:90%;border-radius:50%;height:90%;}
+.snacks-note,.beverages-note{text-align:initial;}
+.snacks-note p,.beverages-note p{font-family:var(--sniglet);font-weight:var(--font-weight-800);font-size:var(--font-size-20);color:var(--color-green);margin-bottom:9px;}
+.snacks-note ul,.beverages-note ul{display:flex;flex-direction:column;}
+.snacks-note ul li,.beverages-note ul li{margin:4px 0;font-family:var(--sniglet);font-weight:var(--font-weight-400);list-style:none;}
+.snacks-note ul li,.beverages-note ul li{display:flex;align-items:center;}
+.snacks-note ul li i,.beverages-note ul li i{font-size:5px;}
+.available-product{width:var(--width-95);margin:0 var(--margin-auto);}
