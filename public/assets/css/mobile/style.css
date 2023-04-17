@@ -57,6 +57,7 @@ html{--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-we
     .check-product-container .check-products .products:nth-child(odd){padding-left:0;}
     .check-product-container .check-products .products:nth-child(even){padding-right:0;}
     .click-more-product-btn button{font-size:var(--font-size-16);}
+    .customer-quotes-header .customer-quotes{margin:0 5px;}
 }
 @media screen and (max-width:400px){
     .check-product-container .check-products .products{margin:0 0 15px 0px;width:50%;height:200px;}
