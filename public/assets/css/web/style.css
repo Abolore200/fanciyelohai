@@ -97,7 +97,8 @@ main{margin-top:20px;}
 .about-us-header{width:25%;}
 .about-us-header p{font-weight:var(--font-weight-600);font-size:30px;}
 .line-about-us{width:1px;height:inherit;background-color:var(--color-white);margin:0 80px 0 40px;}
-.about-us p,.about-us-header p{color:var(--color-white);font-weight:var(--font-weight-500);}
+.about-us p{color:var(--color-white);font-weight:var(--font-weight-500);}
+.about-us-header p{font-weight:var(--font-weight-600);color:var(--color-white);}
 .about-us p{padding:30px 0;}
 .about-us p:first-child{padding-top:0;}
 .about-us p:last-child{padding-bottom:0;}
@@ -141,3 +142,7 @@ main{margin-top:20px;}
 .social-media-list ul li:first-child{margin-left:0;}
 .social-media-list ul li:last-child{margin-right:0;}
 .social-media-list ul li i{font-size:23px;color:var(--color-white);}
+.footer-copyright{width:100%;padding:40px 0;background-color:var(--background-blackish);}
+.copyright-header{display:flex;width:var(--width-95);margin:0 var(--margin-auto);justify-content:space-between;align-items:center;}
+.copyright-header p{color:var(--color-white);}
+.bottom-fanciyelohai p,.copyright-year p{font-size:30px;font-family:var(--titan-one);}
