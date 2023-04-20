@@ -11,3 +11,12 @@ function menuBar(){
 //insert the current year
 const year = new Date().getFullYear()
 document.querySelector('.copyright-year p span').innerHTML = year
+//when the site is loaded, display animation
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('.header-quotes').classList.add('displayQuoteOnLoad')
+    document.querySelector('.header-images').classList.add('displayImageOnLoad')
+    document.body.style.overflowX = 'hidden'
+    setTimeout(() => {
+        document.body.style.removeProperty('overflow-x')
+    },5000)
+})
