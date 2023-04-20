@@ -19,4 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         document.body.style.removeProperty('overflow-x')
     },5000)
+    //remove animation if the max-width is 768px
+    const maxWidth = window.matchMedia("(max-width:768px)")
+    if(maxWidth.matches){
+        document.querySelector('.header-quotes').classList.remove('displayQuoteOnLoad')
+        document.querySelector('.header-images').classList.remove('displayImageOnLoad')
+        document.body.style.removeProperty('overflow-x')
+    }
 })

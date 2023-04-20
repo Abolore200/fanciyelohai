@@ -15,18 +15,18 @@
 .explore-now-btn button:hover i,.check-product-container .check-products .products:hover
 {-ms-animation-duration:.2s;-ms-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
 /*  */
-.header-quotes.displayQuoteOnLoad{position:relative;animation-name:displayQuoteOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:1s;}
+.header-quotes.displayQuoteOnLoad{position:relative;animation-name:displayQuoteOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:.5s;}
 @keyframes displayQuoteOnLoad{0%{right:999px}100%{right:0px}}
-.header-images.displayImageOnLoad{position:relative;animation-name:displayImageOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:1s;}
+.header-images.displayImageOnLoad{position:relative;animation-name:displayImageOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:.5s;}
 @keyframes displayImageOnLoad{0%{left:999px}100%{left:0px}}
 .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-webkit-animation-duration:2s;-webkit-animation-fill-mode:forwards;-webkit-animation-delay:1s;animation-delay:1s;animation-duration:2s;animation-fill-mode:forwards;}
+{-webkit-animation-duration:2s;-webkit-animation-fill-mode:forwards;-webkit-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
 /*opera*/
 .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-o-animation-duration:2s;-o-animation-fill-mode:forwards;-o-animation-delay:1s;animation-delay:1s;animation-duration:2s;animation-fill-mode:forwards;}
+{-o-animation-duration:2s;-o-animation-fill-mode:forwards;-o-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
 /*mozilla*/
 .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-moz-animation-duration:2s;-moz-animation-fill-mode:forwards;-moz-animation-delay:1s;animation-delay:1s;animation-duration:2s;animation-fill-mode:forwards;}
+{-moz-animation-duration:2s;-moz-animation-fill-mode:forwards;-moz-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
 /*microsoft*/
 .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-ms-animation-duration:2s;-ms-animation-fill-mode:forwards;-ms-animation-delay:1s;animation-delay:1s;animation-duration:2s;animation-fill-mode:forwards;}
+{-ms-animation-duration:2s;-ms-animation-fill-mode:forwards;-ms-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
