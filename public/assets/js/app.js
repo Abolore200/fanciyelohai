@@ -14,7 +14,7 @@ function menuBar(){
                 document.body.classList.remove('fixed')
                 navBar.classList.remove('showNavbar')
             }
-            window.location.href = '#product'
+            window.location.href = '#link-one'
         })
         //when the about us link is clicked, navigate the page to about us section
         clickArray[1].addEventListener('click', () => {
@@ -22,7 +22,7 @@ function menuBar(){
                 document.body.classList.remove('fixed')
                 navBar.classList.remove('showNavbar')
             }
-            window.location.href = '#about-us'
+            window.location.href = '#link-two'
         })
         //when the contact us link is clicked, navigate the page to contact us section
         clickArray[2].addEventListener('click', () => {
@@ -30,7 +30,7 @@ function menuBar(){
                 document.body.classList.remove('fixed')
                 navBar.classList.remove('showNavbar')
             }
-            window.location.href = '#contact-us'
+            window.location.href = '#link-three'
         })
         
     } else {
