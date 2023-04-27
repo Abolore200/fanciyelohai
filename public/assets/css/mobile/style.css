@@ -56,6 +56,7 @@ html{--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-we
     .check-product-container .check-products .products{margin:0 0 15px 0;width:50%;}
     .product-price p{font-size:17px;}
     .navbar-list-link ul li::after{background-color:var(--color-white);}
+    .fixed-whatsapp{left:80%;top:80%;}
 }
 @media screen and (max-width:500px){
     .check-product-container .check-products .products{margin:0 0 15px 0px;width:50%;height:220px;}
@@ -99,6 +100,7 @@ html{--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-we
     .available-product-image .images .small-jar-chin-chin{width:250px;height:450px;}
     .available-product-image .images .small-chin-chin{width:170px;}
     .available-product-image .images .jumbo-chin-chin{width:250px;}
+    .fixed-whatsapp{left:75%;top:85%;}
 }
 @media screen and (max-width:400px){
     .check-product-container .check-products .products{margin:0 0 15px 0px;width:50%;height:200px;}
@@ -118,10 +120,12 @@ html{--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-we
     .available-product-image .images .small-jar-chin-chin{width:230px;height:430px;}
     .available-product-image .images .small-chin-chin{width:150px;}
     .available-product-image .images .jumbo-chin-chin{width:230px;}
+    .fixed-whatsapp{left:75%;top:85%;}
 }
 @media screen and (max-width:376px){
     .snacks-image, .beverages-image{width:180px;height:180px;}
     .click-more-product-btn button{font-size:var(--font-size-16);}
+    .fixed-whatsapp{left:72%;top:85%;}
 }
 @media screen and (min-width:501px) and (max-width:700px){
     /* .check-product-container .check-products .products{margin:0 6px;width:47.5%;} */
@@ -138,12 +142,14 @@ html{--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-we
     .line-about-us{margin:0 40px 0 20px;}
     .check-product-container .check-products .products:first-child .images-details .order p{font-size:13px;}
     .check-product-container .check-products .products:first-child .images-details .product-price{margin:0px 0 5px;}
+    .fixed-whatsapp{left:85%;top:75%;}
 }
 @media screen and (min-width:1001px) and (max-width:1200px){
     .snacks-product, .beverages-product{width:var(--width-100);padding:0 15px 0 0;}
     .snacks-image, .beverages-image{width:215px;height:215px;}
     .about-us-header{width:33%;}
     .big-heading-quote p{font-size:50px;}
+    .fixed-whatsapp{left:87%;}
 }
 @media screen and (min-width:901px) and (max-width:1000px){
     .available-product-image .images img{width:210px;height:240px;}

@@ -160,3 +160,4 @@ main{margin-top:20px;}
 .fixed-relative-whatsapp::before{content:"";position:absolute;width:90%;height:90%;background-color:transparent;z-index:-1;border-radius:50%;}
 .fixed-relative-whatsapp::after{border:1px solid white;}
 .fixed-relative-whatsapp::before{border:1px solid var(--background-blackish);}
+.product-buy-now-btn button a{color:var(--color-white);}
