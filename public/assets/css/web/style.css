@@ -151,3 +151,8 @@ main{margin-top:20px;}
 .available-product-image .images .small-jar-chin-chin{height:490px;}
 .available-product-image .images .small-chin-chin{height:280px;width:170px;}
 .images-details .order p{font-size:15px}
+.fixed-whatsapp{width:80px;height:80px;background-color:var(--background-blackish);border-radius:50%;box-shadow:0px 0px 14px 6px #000;position:fixed;z-index:999;}
+.fixed-whatsapp{top:80%;left:90%;}
+.fixed-relative-whatsapp{position:relative;height:100%;display:flex;align-items:center;justify-content:center;}
+.fixed-relative-whatsapp i{top:50%;left:50%;transform:translate(-50%,-50%);position:absolute;}
+.fixed-relative-whatsapp i{color:var(--color-green);font-size:50px}

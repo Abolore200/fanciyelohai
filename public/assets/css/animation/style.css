@@ -30,3 +30,15 @@
 /*microsoft*/
 .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
 {-ms-animation-duration:2s;-ms-animation-fill-mode:forwards;-ms-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
+/* chrome */
+.home-header-images img,.fixed-relative-whatsapp i
+{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+/* mozilla */
+.home-header-images img,.fixed-relative-whatsapp i
+{-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+/* opera */
+.home-header-images img,.fixed-relative-whatsapp i
+{-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+/* microsoft */
+.home-header-images img,.fixed-relative-whatsapp i
+{-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
