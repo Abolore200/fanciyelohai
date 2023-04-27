@@ -70,6 +70,7 @@
         0%{-ms-transform:scale(1);transform:scale(1);}
         100%{-ms-transform:scale(1.2);transform:scale(1.2);}
     }
+    
 /* animation for fixed-whatsapp ::before */
     .fixed-relative-whatsapp::before{animation: opacitys 1.5s infinite ease-in-out both;}
     .fixed-relative-whatsapp::before{-webkit-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
