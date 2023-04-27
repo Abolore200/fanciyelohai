@@ -1,91 +1,109 @@
-.check-product-container .check-products .products:hover{position:relative;animation-name:hover-product;animation-duration:.2s;animation-fill-mode:forwards;}
-@keyframes hover-product{from{top:0px}to{top:-5px}}
-.explore-now-btn button:hover i{position:relative;animation-name:hover-explore-btn;animation-duration:.2s;animation-fill-mode:forwards;}
-@keyframes hover-explore-btn{from{left:0;}to{left:5px}}
-/*chrome*/
-.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
-{-webkit-animation-duration:.2s;-webkit-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
-/*opera*/
-.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
-{-o-animation-duration:.2s;-o-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
-/*mozilla*/
-.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
-{-moz-animation-duration:.2s;-moz-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
-/*microsoft*/
-.explore-now-btn button:hover i,.check-product-container .check-products .products:hover
-{-ms-animation-duration:.2s;-ms-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
-/*  */
-.header-quotes.displayQuoteOnLoad{position:relative;animation-name:displayQuoteOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:.5s;}
-@keyframes displayQuoteOnLoad{0%{right:999px}100%{right:0px}}
-.header-images.displayImageOnLoad{position:relative;animation-name:displayImageOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:.5s;}
-@keyframes displayImageOnLoad{0%{left:999px}100%{left:0px}}
-.header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-webkit-animation-duration:2s;-webkit-animation-fill-mode:forwards;-webkit-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
-/*opera*/
-.header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-o-animation-duration:2s;-o-animation-fill-mode:forwards;-o-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
-/*mozilla*/
-.header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-moz-animation-duration:2s;-moz-animation-fill-mode:forwards;-moz-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
-/*microsoft*/
-.header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
-{-ms-animation-duration:2s;-ms-animation-fill-mode:forwards;-ms-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
-/* chrome */
-.home-header-images img,.fixed-relative-whatsapp i
-{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
-/* mozilla */
-.home-header-images img,.fixed-relative-whatsapp i
-{-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
-/* opera */
-.home-header-images img,.fixed-relative-whatsapp i
-{-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
-/* microsoft */
-.home-header-images img,.fixed-relative-whatsapp i
-{-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+/* animation for navbar link [li] and products [products] */
+    .check-product-container .check-products .products:hover{position:relative;animation-name:hover-product;animation-duration:.2s;animation-fill-mode:forwards;}
+    @keyframes hover-product{from{top:0px}to{top:-5px}}
+    .explore-now-btn button:hover i{position:relative;animation-name:hover-explore-btn;animation-duration:.2s;animation-fill-mode:forwards;}
+    @keyframes hover-explore-btn{from{left:0;}to{left:5px}}
+    /*chrome*/
+    .explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+    {-webkit-animation-duration:.2s;-webkit-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
+    /*opera*/
+    .explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+    {-o-animation-duration:.2s;-o-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
+    /*mozilla*/
+    .explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+    {-moz-animation-duration:.2s;-moz-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
+    /*microsoft*/
+    .explore-now-btn button:hover i,.check-product-container .check-products .products:hover
+    {-ms-animation-duration:.2s;-ms-animation-fill-mode:forwards;animation-duration:.2s;animation-fill-mode:forwards;}
 
+/* animation for header image and quote */
+    .header-quotes.displayQuoteOnLoad{position:relative;animation-name:displayQuoteOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:.5s;}
+    @keyframes displayQuoteOnLoad{0%{right:999px}100%{right:0px}}
+    .header-images.displayImageOnLoad{position:relative;animation-name:displayImageOnLoad;animation-duration:2s;animation-fill-mode:forwards;animation-delay:.5s;}
+    @keyframes displayImageOnLoad{0%{left:999px}100%{left:0px}}
+    .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
+    {-webkit-animation-duration:2s;-webkit-animation-fill-mode:forwards;-webkit-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
+    /*opera*/
+    .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
+    {-o-animation-duration:2s;-o-animation-fill-mode:forwards;-o-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
+    /*mozilla*/
+    .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
+    {-moz-animation-duration:2s;-moz-animation-fill-mode:forwards;-moz-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
+    /*microsoft*/
+    .header-quotes.displayQuoteOnLoad,.header-images.displayImageOnLoad
+    {-ms-animation-duration:2s;-ms-animation-fill-mode:forwards;-ms-animation-delay:.5s;animation-delay:.5s;animation-duration:2s;animation-fill-mode:forwards;}
 
-.fixed-relative-whatsapp::after{animation:opacity 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::after{-webkit-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::after{-moz-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::after{-o-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::after{-ms-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-@keyframes opacity{
-    /* all browsers */
-    0%{transform:scale(1);}
-    100%{transform:scale(1.2);}
+/* transform for fixed whatsapp and header-img */
     /* chrome */
-    0%{-webkit-transform:scale(1);transform:scale(1);}
-    100%{-webkit-transform:scale(1.2);transform:scale(1.2);}
+    .home-header-images img,.fixed-relative-whatsapp i
+    {-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
     /* mozilla */
-    0%{-moz-transform:scale(1);transform:scale(1);}
-    100%{-moz-transform:scale(1.2);transform:scale(1.2);}
+    .home-header-images img,.fixed-relative-whatsapp i
+    {-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
     /* opera */
-    0%{-o-transform:scale(1);transform:scale(1);}
-    100%{-o-transform:scale(1.2);transform:scale(1.2);}
+    .home-header-images img,.fixed-relative-whatsapp i
+    {-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
     /* microsoft */
-    0%{-ms-transform:scale(1);transform:scale(1);}
-    100%{-ms-transform:scale(1.2);transform:scale(1.2);}
-}
+    .home-header-images img,.fixed-relative-whatsapp i
+    {-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
 
-.fixed-relative-whatsapp::before{animation: opacitys 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::before{-webkit-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::before{-moz-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::before{-o-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-.fixed-relative-whatsapp::before{-ms-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
-@keyframes opacitys{
-    /* all browsers */
-    0%{transform:scale(1);}
-    100%{transform:scale(1.1);}
+/* animation for fixed-whatsapp ::after */
+    .fixed-relative-whatsapp::after{animation:opacity 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::after{-webkit-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::after{-moz-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::after{-o-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::after{-ms-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    @keyframes opacity{
+        /* all browsers */
+        0%{transform:scale(1);}
+        100%{transform:scale(1.2);}
+        /* chrome */
+        0%{-webkit-transform:scale(1);transform:scale(1);}
+        100%{-webkit-transform:scale(1.2);transform:scale(1.2);}
+        /* mozilla */
+        0%{-moz-transform:scale(1);transform:scale(1);}
+        100%{-moz-transform:scale(1.2);transform:scale(1.2);}
+        /* opera */
+        0%{-o-transform:scale(1);transform:scale(1);}
+        100%{-o-transform:scale(1.2);transform:scale(1.2);}
+        /* microsoft */
+        0%{-ms-transform:scale(1);transform:scale(1);}
+        100%{-ms-transform:scale(1.2);transform:scale(1.2);}
+    }
+/* animation for fixed-whatsapp ::before */
+    .fixed-relative-whatsapp::before{animation: opacitys 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::before{-webkit-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::before{-moz-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::before{-o-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    .fixed-relative-whatsapp::before{-ms-animation:opacity 1.5s infinite ease-in-out both;animation:opacity 1.5s infinite ease-in-out both;}
+    @keyframes opacitys{
+        /* all browsers */
+        0%{transform:scale(1);}
+        100%{transform:scale(1.1);}
+        /* chrome */
+        0%{-webkit-transform:scale(1);transform:scale(1);}
+        100%{-webkit-transform:scale(1.1);transform:scale(1.1);}
+        /* mozilla */
+        0%{-moz-transform:scale(1);transform:scale(1);}
+        100%{-moz-transform:scale(1.1);transform:scale(1.1);}
+        /* opera */
+        0%{-o-transform:scale(1);transform:scale(1);}
+        100%{-o-transform:scale(1.1);transform:scale(1.1);}
+        /* microsoft */
+        0%{-ms-transform:scale(1);transform:scale(1);}
+        100%{-ms-transform:scale(1.1);transform:scale(1.1);}
+    }
+
+/* when hovering fixed-relative-whatsapp, change the background */
+    .fixed-whatsapp,.fixed-relative-whatsapp,.fixed-relative-whatsapp i
     /* chrome */
-    0%{-webkit-transform:scale(1);transform:scale(1);}
-    100%{-webkit-transform:scale(1.1);transform:scale(1.1);}
+    {-webkit-transition:all .2s;transition:all .2s;}
     /* mozilla */
-    0%{-moz-transform:scale(1);transform:scale(1);}
-    100%{-moz-transform:scale(1.1);transform:scale(1.1);}
+    .fixed-whatsapp,.fixed-relative-whatsapp,.fixed-relative-whatsapp i
+    {-moz-transition:all .2s;transition:all .2s;}
     /* opera */
-    0%{-o-transform:scale(1);transform:scale(1);}
-    100%{-o-transform:scale(1.1);transform:scale(1.1);}
+    .fixed-whatsapp,.fixed-relative-whatsapp,.fixed-relative-whatsapp i
+    {-o-transition:all .2s;transition:all .2s;}
     /* microsoft */
-    0%{-ms-transform:scale(1);transform:scale(1);}
-    100%{-ms-transform:scale(1.1);transform:scale(1.1);}
-}
+    .fixed-whatsapp,.fixed-relative-whatsapp,.fixed-relative-whatsapp i
+    {-ms-transition:all .2s;transition:all .2s;}

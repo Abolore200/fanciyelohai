@@ -153,7 +153,7 @@ main{margin-top:20px;}
 .images-details .order p{font-size:15px}
 .fixed-whatsapp{width:80px;height:80px;background-color:var(--color-white);border-radius:50%;position:fixed;z-index:999;}
 .fixed-whatsapp{top:80%;left:90%;}
-.fixed-relative-whatsapp{position:relative;height:100%;display:flex;align-items:center;justify-content:center;}
+.fixed-relative-whatsapp{position:relative;height:100%;display:flex;align-items:center;justify-content:center;border-radius:50%;}
 .fixed-relative-whatsapp i{top:50%;left:50%;transform:translate(-50%,-50%);position:absolute;}
 .fixed-relative-whatsapp i{color:var(--color-green);font-size:50px}
 .fixed-relative-whatsapp::after{content:"";position:absolute;width:95%;height:95%;background-color:transparent;z-index:-1;border-radius:50%;}
@@ -161,3 +161,7 @@ main{margin-top:20px;}
 .fixed-relative-whatsapp::after{border:1px solid white;}
 .fixed-relative-whatsapp::before{border:1px solid var(--background-blackish);}
 .product-buy-now-btn button a{color:var(--color-white);}
+.fixed-whatsapp,.fixed-relative-whatsapp, .fixed-relative-whatsapp i{transition:all .2s;}
+.fixed-relative-whatsapp:hover{background-color:var(--color-green);}
+.fixed-relative-whatsapp:hover i{color:var(--color-white);}
+.fixed-whatsapp:hover{background-color:transparent;}
