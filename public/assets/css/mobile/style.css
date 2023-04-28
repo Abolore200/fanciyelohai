@@ -10,7 +10,7 @@ html{--font-weight-700:700;--font-weight-500:500;--font-weight-400:400;--font-we
     .home-logo-link button{display:block;border:none;background-color:transparent;}
     .home-logo-link button i{font-size:35px;}
     .home-logo-link{display:flex;align-items:center;justify-content:space-between;}
-    .navbar-list-link ul li{margin:15px 0;line-height:normal;}
+    .navbar-list-link ul li{margin:15px 0;line-height:normal;width:fit-content;}
     .home-logo-link{padding:30px 10px;}
     .navbar-header-container,.navbar-header-container nav,nav .navbar-home,.home-logo-link{position:relative;}
     .navbar-list-link{position:fixed;width:100%;top:100px;height:100vh;background-color:rgba(128, 128, 128,.3);z-index:999;}
